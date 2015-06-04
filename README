@@ -1,0 +1,6 @@
+Installation de pyCAF :
+1 - déployer le fichier de configuration de ipython ou exécuter le code depuis le répertoire racine de pyCAF
+
+Analyse d'un serveur Debian :
+2 - s = importer.Import_server_from_archive("extract_sample/Debian/wheezy.config.3952.tar.bz2", config)
+3 - a = analyzer.AnalyzeServer(s, config)

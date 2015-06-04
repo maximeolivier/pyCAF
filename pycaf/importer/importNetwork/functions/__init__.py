@@ -1,0 +1,7 @@
+#
+from pycaf.importer.importNetwork.functions.cisco_functions import import_cisco_hostname
+from pycaf.importer.importNetwork.functions.cisco_functions import import_cisco_osversion
+from pycaf.importer.importNetwork.functions.cisco_functions import import_cisco_vlan
+from pycaf.importer.importNetwork.functions.cisco_functions import import_cisco_interfaces_and_switchport
+from pycaf.importer.importNetwork.functions.cisco_functions import import_cisco_route
+from pycaf.importer.importNetwork.functions.cisco_functions import import_cisco_catalyst_acl_table
