@@ -1,7 +1,6 @@
 import sys
 
-sys.path.append("/path/to/pyCAF/repository
-")
+sys.path.append("/path/to/pyCAF/repository")
 
 import pycaf.importer as importer
 import pycaf.analyzer as analyzer
