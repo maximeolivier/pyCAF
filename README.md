@@ -1,14 +1,18 @@
 ## Synopsis
 
-pyCAF est un framework d'audit de sécurité de configuration. Il a vocation à accompagner l'auditeur en lui facilitant la manipulation des données pertinentes sur lesquelles il va pouvoir baser son expertise.
+pyCAF est un *framework* d'audit de sécurité de configuration. Il a vocation à accompagner l'auditeur en lui facilitant la manipulation des données pertinentes sur lesquelles il va pouvoir baser son expertise.
 
 ## Installation
 
 Pour simplifier l'utilisation de pyCAF, il est recommandé d'utiliser ipython.
-# apt install ipython
+
+
+    # apt install ipython
 
 Pour le programme s'initialise correctement et que le framework puisse être fonctionnel, il faut déposer le script ressources/00-pyCAF.py dans le rép\ertoire .ipython/profile_default/startup/ du répertoire /home de l'utilisateur. Il ne reste ensuite plus qu'à exécuter ipython avec ce fichier  (comp\ortement par défaut s'il n'existe pas d'autre code dans le répertoire startup).
-$ ipython
+
+
+    $ ipython
 
 À partir de là, les fichiers de configuration ont été chargés et le contexte d'utilisation de pyCAF (configuration et journalisation) initialisés. Il ne reste plus qu'à utiliser.
 
