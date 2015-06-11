@@ -39,7 +39,7 @@ class Architecture():
         self.routers = routers
 
     def __str__(self):
-        """ Retunr a string that describes the architecture
+        """ Return a string that describes the architecture
         """
         print "Architecture name : " + str(self.name)
         print self.servers
