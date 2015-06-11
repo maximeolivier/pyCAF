@@ -1,0 +1,6 @@
+# binaires
+*.pyc
+*.pyo
+
+# fichiers temporaires
+*~
