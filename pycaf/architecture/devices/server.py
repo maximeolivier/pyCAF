@@ -69,6 +69,7 @@ class Server():
         # Listening and established connections
         self.listening_connections = sf.ConnectionList()
         # Process whose user is Root
+        self.processes = sf.ProcessList()
         self.root_processes = sf.ProcessList()
         # Listening connection whose user is root
         self.listening_root_process = sf.ProcessList()
@@ -85,7 +86,7 @@ class Server():
 
         # SSH config object (see server features objects)
         self.ssh_config = sf.SSHConfig()
-        
+
         # Suoders config
         self.sudoers_config = ""
 
@@ -138,7 +139,22 @@ class Server():
         """ Setter pour la propriété kernel_version_running d'un serveur
         """
         self.kernel_version_running = kernel_version_running
+
+    def set_listening_connections(self, listening_connections):
+        """ Setter pour la liste des connections en écoute sur le réseau
+        """
+        self.listening_connection = listening_connection
+
+    def set_processes(self, processes):
+        """ Setter pour la liste des process exécutés sur le serveur
+        """
+        self.processes = processes
         
+    def set_files(self, files):
+        """ Setter pour la liste des fichiers sur le serveur
+        """
+        self.files = files
+
     def register_raw_info_in_files(self, path = None):
         """
         Function wich save all raw imported information in several files
