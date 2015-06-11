@@ -1,8 +1,8 @@
-## Synopsis
+# Synopsis
 
 pyCAF est un *framework* d'audit de sécurité de configuration. Il a vocation à accompagner l'auditeur en lui facilitant la manipulation des données pertinentes sur lesquelles il va pouvoir baser son expertise.
 
-## Installation
+# Installation
 
 Pour simplifier l'utilisation de pyCAF, il est recommandé d'utiliser ipython.
 
@@ -16,19 +16,24 @@ Pour le programme s'initialise correctement et que le framework puisse être fon
 
 À partir de là, les fichiers de configuration ont été chargés et le contexte d'utilisation de pyCAF (configuration et journalisation) initialisés. Il ne reste plus qu'à utiliser.
 
-## API Reference
+# API Reference
 
 Les API ne sont pas encore documentées. Le travail est en cours.
 
-## Tests
+# Tests
 
-== Exemple d'import et d'analyse d'une archive ==
-=== Import d'une archive extraite d'un serveur linux ===
-In [1]: s = importer.Import_server_from_archive("/path/to/the/tar.bz2/archive", config)
+## Exemple d'import et d'analyse d'une archive
 
-=== Exécution d'un scénario d'analyse sur le serveur ===
-In [2]: a = analyzer.AnalyzeServer(s, config)
+### Import d'une archive extraite d'un serveur linux
 
-## License
+
+    In [1]: s = importer.Import_server_from_archive("/path/to/the/tar.bz2/archive", config)
+
+### Exécution d'un scénario d'analyse sur le serveur
+
+
+    In [2]: a = analyzer.AnalyzeServer(s, config)
+
+# License
 
 Ce code est publié sous licence GPLv3
