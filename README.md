@@ -22,8 +22,6 @@ Les API ne sont pas encore documentées. Le travail est en cours.
 
 # Tests
 
-## Exemple d'import et d'analyse d'une archive
-
 ### Import d'une archive extraite d'un serveur linux
 
 
