@@ -9,7 +9,7 @@ Pour simplifier l'utilisation de pyCAF, il est recommandé d'utiliser ipython.
 
     # apt install ipython
 
-Pour le programme s'initialise correctement et que le framework puisse être fonctionnel, il faut déposer le script ressources/00-pyCAF.py dans le rép\ertoire .ipython/profile_default/startup/ du répertoire /home de l'utilisateur. Il ne reste ensuite plus qu'à exécuter ipython avec ce fichier  (comp\ortement par défaut s'il n'existe pas d'autre code dans le répertoire startup).
+Pour le programme s'initialise correctement et que le framework puisse être fonctionnel, il faut déposer le script `ressources/00-pyCAF.py` dans le rép\ertoire .ipython/profile_default/startup/ du répertoire /home de l'utilisateur. Il ne reste ensuite plus qu'à exécuter ipython avec ce fichier  (comp\ortement par défaut s'il n'existe pas d'autre code dans le répertoire startup).
 
 
     $ ipython
