@@ -18,7 +18,11 @@ Pour le programme s'initialise correctement et que le framework puisse être fon
 
 # API Reference
 
-Les API ne sont pas encore documentées. Le travail est en cours.
+La documentation des APIs est disponible sur le wiki du projet (*work in progress*) :
+* [documentation de l'API d'analyse](https://github.com/maximeolivier/pyCAF/wiki/Documentation-de-l%27API-d%27analyse "lien vers la documentation de l'API d'analyse")
+* [documentation de l'API d'import](https://github.com/maximeolivier/pyCAF/wiki/Documentation-de-l%27API-d%27import "lien vers la documentation de l'API d'import")
+
+La rédaction de cette documentation est en cours et donc incomplète.
 
 # Tests
 
