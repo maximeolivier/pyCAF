@@ -28,6 +28,8 @@ La rédaction de cette documentation est en cours et donc incomplète.
 
 ### Import d'une archive extraite d'un serveur linux
 
+Ce test mentionne l'utilisation d'une archive qui résulte de l'exécution du script `extract_linux_0.1.sh`.
+
 
     In [1]: s = importer.Import_server_from_archive("/path/to/the/tar.bz2/archive", config)
 
