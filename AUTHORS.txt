@@ -6,8 +6,10 @@ Authors
 Contributors
 ------------
 
-  * Thierry Quiniou - thierry.quiniou@ensta-bretagne.org (developer)
+  * Thierry Quiniou - thierry.quiniou@ensta-bretagne.org
   * Adrien Raffin - adrien.raffin@amossys.fr
+  * Thibault Rouat - thibault.rouat@amossys.fr
+  * Olivier Tétard - olivier.tetard@miskin.fr
 
 Sponsors
 --------
