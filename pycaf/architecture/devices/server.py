@@ -105,6 +105,11 @@ class Server():
         # Common dictionnay when several servers are imported
         self.ip_hostname_common = {}
 
+    def get_process_list(self):
+        """ Renvoie la liste des processus (l'objet ProcessList)
+        """
+        return self.processes
+
     def set_name(self, name):
         """ Setter pour la propriété name d'un serveur
         """
