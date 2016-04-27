@@ -146,7 +146,7 @@ else
 fi
 
 echo "[+] contenu du répertoire /etc/"
-tar cjf $OUTDIR/etc.tar.bz2 -p --atime-preserve /etc
+tar cjf $OUTDIR/etc.tar.bz2 -p --atime-preserve --dereference /etc
 ### Ignore certains fichiers sensibles (linux)
 #tar cjf $OUTDIR/etc.tar.bz2 -p --atime-preserve --wildcards --exclude "/etc/passwd*" --exclude "/etc/shadow*" --exclude "/etc/group*" --exclude "/etc/krb5.conf" --exclude "/etc/sudoers*" --exclude "/etc/publickeys*" --exclude "/etc/pki*" /etc
 
